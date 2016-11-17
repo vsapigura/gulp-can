@@ -1,0 +1,37 @@
+{
+  "name": "gulp-can",
+  "version": "0.0.1",
+  "description": "Library for more comfortable working with Gulp",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha -b"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsapigura/gulp-can.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-can",
+    "can",
+    "skeleton"
+  ],
+  "author": "Viacheslav Sapigura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsapigura/gulp-can/issues"
+  },
+  "homepage": "https://github.com/vsapigura/gulp-can#readme",
+  "dependencies": {
+    "app-module-path": "^2.1.0",
+    "gulp": "^3.9.1",
+    "node.extend": "^1.1.6"
+  },
+  "engines": {
+    "node": ">= 4.3.2",
+    "npm": ">= 1.4.0"
+  }
+}
