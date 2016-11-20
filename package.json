@@ -4,6 +4,7 @@
   "description": "Library for more comfortable working with Gulp",
   "main": "./lib/index.js",
   "scripts": {
+    "jsdoc": "./node_modules/.bin/jsdoc ./lib/index.js --destination ./.tmp/jsdoc",
     "test": "mocha -b"
   },
   "directories": {
@@ -28,10 +29,15 @@
   "dependencies": {
     "app-module-path": "^2.1.0",
     "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.4.0",
+    "hashmap": "^2.0.6",
     "node.extend": "^1.1.6"
   },
   "engines": {
     "node": ">= 4.3.2",
     "npm": ">= 1.4.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
   }
 }
