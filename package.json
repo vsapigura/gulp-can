@@ -1,6 +1,6 @@
 {
   "name": "gulp-can",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Library for more comfortable working with Gulp",
   "main": "./lib/index.js",
   "scripts": {
